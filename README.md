@@ -33,9 +33,9 @@ launch.json semelhante ao abaixo, e executar o debug pela aplicação ou via F5
 ```
 Há uma camada de autenticação no projeto, e é possível desabilita-la
 fazendo uma pequena alteração no `manage.py` alterando a linha
-# os.environ.setdefault('AUTH_FULL', 'TRUE')
+#### os.environ.setdefault('AUTH_FULL', 'TRUE')
 para 
-# os.environ.setdefault('AUTH_FULL', 'FALSE')
+#### os.environ.setdefault('AUTH_FULL', 'FALSE')
 Somente deve ser utilizado para fins de facilitação de testes da API,
 via postman, curl, etc.
 

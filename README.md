@@ -39,10 +39,10 @@ para
 Somente deve ser utilizado para fins de facilitação de testes da API,
 via postman, curl, etc.
 
-Caso seja rodada a aplicação com o AUTH_FULL para true, ao chamar qualquer
+Caso seja rodada a aplicação com o `AUTH_FULL` para `TRUE`, ao chamar qualquer
 end-point a mensagem apresentada será
 
-## "detail": "Authentication credentials were not provided."
+### "detail": "Authentication credentials were not provided."
 
 A camada de autenticação utilizada foi a oauth2_provider, 
 da biblioteca [https://pypi.org/project/django-oauth-toolkit/]
@@ -54,25 +54,25 @@ com exceção do login é verificado se o token é válido.
 Executar o comando com a instância do python instalada na máquina/servidor, 
 utilizando  o manage.py  para inicializar a aplicação
 
-### py manage.py runserver
+#### py manage.py runserver
 
 ## Execução em ambiente de desenvolvimento React/Front-END
 
 Verificar se o `npm` está instalado na máquina
 
-### npm -v
+#### npm -v
 
 Verificando que está instalado executar
 
-### npm install
-### npm start
+#### npm install
+#### npm start
 
 ## Execução em ambiente de produção React/Front-END
 
 Após todas as dependências instaladas e certificando-se que o 
 npm do build deu sucesso executar:
 
-### npm run build
+#### npm run build
 
 O projeto será colocado na porta :3000 inicialmente
 

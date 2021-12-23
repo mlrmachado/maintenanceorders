@@ -5,12 +5,12 @@ Executar para verificar se o Python está instalado:
 
 Caso esteja instalado executar 
 
-### pip install -r requirements.txt
-### python manage.py migrate --run-syncdb 
-### py manage.py makemigrations --dry-run --verbosity 3
-### py manage.py runserver
-### py manage.py createsuperuser 
-### pip install coverage
+#### pip install -r requirements.txt
+#### python manage.py migrate --run-syncdb 
+#### py manage.py makemigrations --dry-run --verbosity 3
+#### py manage.py runserver
+#### py manage.py createsuperuser 
+#### pip install coverage
 
 Para debug, é necessário iniciar o programa em modo depuração. Via VSCODE pode 
 ser utilizado dentro da pasta principal do projeto em .vscode, um arquivo 

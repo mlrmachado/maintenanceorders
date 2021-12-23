@@ -6,7 +6,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')    
-    os.environ.setdefault('AUTH_FULL', 'FALSE') #ATENÇÃO, DEIXAR FALSE NESSE PARÂMETRO DESABILITA A AUTENTICAÇÃO DO SISTEMA!!
+    os.environ.setdefault('AUTH_FULL', 'TRUE') #ATENÇÃO, DEIXAR FALSE NESSE PARÂMETRO DESABILITA A AUTENTICAÇÃO DO SISTEMA!!
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

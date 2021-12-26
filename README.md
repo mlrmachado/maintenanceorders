@@ -9,6 +9,7 @@ Caso esteja instalado executar
 #### python manage.py migrate --run-syncdb 
 #### py manage.py makemigrations --dry-run --verbosity 3
 #### py manage.py createsuperuser 
+O usuário criado aqui pode ser usado para acessar a aplicação e também o painel administrativo do django em http://localhost:8000/admin/ após executar o `py manage.py runserver`
 #### pip install coverage
 #### py manage.py runserver
 
